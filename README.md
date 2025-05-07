@@ -13,8 +13,8 @@ This repository is set up for Ruby development with a pre-configured dev contain
 
 1. Clone this repository:
   ```bash
-  git clone <repository-url>
-  cd ruby
+  git clone https://github.com/LeoHSilva/heimdall.git
+  cd heimdall
   ```
 
 2. Open the repository in a development environment that supports dev containers (e.g., VS Code).
