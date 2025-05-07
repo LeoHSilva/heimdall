@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Device.destroy_all
+
+# Create multiple Tracker Devices
+devices = Device.create!([
+  { name: "Device A", device_type: "GPS Tracker", status: "active" },
+  { name: "Device B", device_type: "Bluetooth Tracker", status: "inactive" },
+  { name: "Device C", device_type: "WiFi Tracker", status: "active" }
+])
+
+puts "Seed data created successfully!"
